@@ -21,7 +21,7 @@
             "title": "Timeline BBcode",
             "category": "feature",
             "icon": {
-                "name": "far fa-stream",
+                "name": "fas fa-stream",
                 "backgroundColor": "#99cc33",
                 "color": "#FFFFFF"
             }
