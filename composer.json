@@ -1,0 +1,30 @@
+{
+    "name": "chinovn/flarum-timeline-bbcode",
+    "description": "Custom BBCode to add timeline in post.",
+    "type": "flarum-extension",
+    "license": "MIT",
+    "support": {
+        "forum": "https://discuss.flarum.org/",
+        "issues": "https://github.com/chinovn/flarum-timeline-bbcode/issues",
+        "source": "https://github.com/chinovn/flarum-timeline-bbcode"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.6 || ^1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ChinoVN\\Timeline\\BBcode": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Timeline BBcode",
+            "category": "feature",
+            "icon": {
+                "name": "far fa-stream",
+                "backgroundColor": "#99cc33",
+                "color": "#FFFFFF"
+            }
+        }
+    }
+}
