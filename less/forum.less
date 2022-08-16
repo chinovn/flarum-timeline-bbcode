@@ -1,0 +1,92 @@
+.cb-timeline {
+  max-width: 100%;
+  margin: 0px auto;
+  padding: 0 20px;
+  position: relative;
+}
+.cb-timeline .cb-center-line{
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  background: rgb(128,128,128);
+  left: 15px;
+  top: 0px;
+  transform: translateX(-50%);
+}
+.cb-timeline .cb-center-line2{
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  left: 15px;
+  top: 0px;
+  transform: translateX(-50%);
+}
+
+.cb-timeline .cb-info{
+  margin: 0px 0 0 5px;
+  width: 100%;
+  padding: 10px;
+  position: relative;
+}
+
+.cb-timeline .cb-info .cb-content {
+  padding: 10px;
+  border-radius: 0px 15px 15px 15px;
+  background: rgba(128,128,128,0.1);
+
+}
+
+.cb-timeline .cb-info .cb-content2 {
+  padding-top: 15px;
+}
+
+.cb-timeline .cb-info .icon {
+  position: absolute;
+  background: rgb(128,128,128);
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  line-height: 25px;
+  border-radius: 50%;
+  font-size: 14px;
+  box-shadow: 0 0 0 1px rgb(128,128,128);
+  top: 10px;
+  left: -23px;
+  color: #fff;
+}
+
+.cb-timeline .cb-info .icon2 {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  top: 15px;
+  left: -18px;
+  transform: rotate(45deg);
+}
+
+.cb-timeline .cb-info .cb-timestamp{
+  font-size: 12px;
+  font-weight: 700;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.cb-timeline .cb-info .cb-timestamp2 {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 5px 15px;
+  color: #fff;
+  text-transform: uppercase;
+  width: fit-content;
+}
+
+@media(max-width: 440px){
+  .cb-timeline .cb-center-line,
+  .cb-timeline .cb-info::before,
+  .cb-timeline .cb-info .icon{
+    display: none;
+  }
+  .cb-timeline .cb-info {
+    margin: 10px 0;
+  }
+}
