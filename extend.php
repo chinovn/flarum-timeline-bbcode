@@ -23,10 +23,10 @@ return [
             );
         $config->BBCodes->addCustom('[TLC={COLOR} {TEXT}]{ANYTHING}[/TLC]', 
                 '<div class="cb-timeline">
-                    <div class="cb-center-line2" style="background:{COLOR};"></div>
+                    <div class="cb-center-line2" style="background:{COLOR} !important;"></div>
                     <div class="cb-info">
-                        <i class="icon2" style="background: {COLOR};"></i>
-                        <div class="cb-timestamp2" style="background:{COLOR};">{TEXT}</div>
+                        <i class="icon2" style="background: {COLOR} !important;"></i>
+                        <div class="cb-timestamp2" style="background:{COLOR} !important;">{TEXT}</div>
                         <div class="cb-content2">
                             {ANYTHING}
                         </div>
